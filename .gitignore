@@ -356,6 +356,14 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
+
+
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
